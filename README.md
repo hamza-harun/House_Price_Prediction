@@ -18,17 +18,21 @@ A full machine learning workflow that cleans and explores the Ames Housing datas
 ## Before You Run This for Submission
 
 ## Project Structure
-├── House_Price_Regression_Project.ipynb # Full ML workflow (EDA -> models -> save)
+
+```
+.
+├── House_Price_Regression_Project.ipynb   # Full ML workflow (EDA -> models -> save)
 ├── app/
-│ └── streamlit_app.py # Web application (7 pages)
+│   └── streamlit_app.py                   # Web application (7 pages)
 ├── data/
-│ └── train.csv # Dataset (replace with real Kaggle file)
+│   └── train.csv                          # Dataset (replace with real Kaggle file)
 ├── model/
-│ ├── best_house_price_model.joblib # Saved best pipeline (created by notebook)
-│ ├── metadata.joblib # Feature lists + best model metrics
-│ └── results_comparison.csv # Model comparison table (for the app)
+│   ├── best_house_price_model.joblib      # Saved best pipeline (created by notebook)
+│   ├── metadata.joblib                    # Feature lists + best model metrics
+│   └── results_comparison.csv             # Model comparison table (for the app)
 ├── requirements.txt
 └── README.md
+```
 ## Setup
 
 ```bash
