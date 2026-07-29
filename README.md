@@ -74,11 +74,6 @@ Pages: Home, Project Description, Dataset Information, Model Information, Predic
 
 *State which model won and why, referencing MAE/MSE/RMSE/R² and training time — not R² alone.*
 
-## Team Members
-
-| Name | Role |
-|---|---|
-| | |
 
 ## Dataset Citation
 
@@ -86,4 +81,3 @@ Kaggle, *House Prices: Advanced Regression Techniques* (Ames Housing dataset, co
 
 ## License
 
-*Add a license if required by your course (e.g. MIT).*
